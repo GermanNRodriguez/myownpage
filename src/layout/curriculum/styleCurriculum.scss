@@ -1,0 +1,93 @@
+#cv {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgb(151, 188, 255) 0%,
+    #fff 10%,
+    #fff 90%,
+    rgb(151, 188, 255) 100%
+  );
+}
+
+.titleCV {
+  padding-top: 50px;
+}
+
+.images {
+    margin-bottom: 20px;
+}
+
+.foto {
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+
+  }
+  
+  .hrFoto {
+      background-color: aqua;
+      box-shadow: none;
+      height: 10px;
+      width: 60%;
+  }
+  
+
+.shadows {
+  margin-top: 20px;
+  height: 1px;
+  width: 75%;
+  margin-bottom: 0;
+  box-shadow: 3px 5px 8px 3px grey;
+}
+
+hr {
+  height: 1px;
+  width: 75%;
+  border-radius: 20px;
+  background-color: rgb(151, 188, 255);
+  border: none;
+  box-shadow: 1px 1px 6px 6px rgb(151, 188, 255);
+  margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 45px;
+}
+.principle {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+.leftTitle {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.leftSubtitle {
+  font-weight: 600;
+  color: gray;
+  margin-top: 0;
+}
+
+.rightTitle {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.rightSubtitle {
+  text-align: left;
+}
+
+.leftList {
+  align-items: left;
+  text-align: left;
+  margin-top: 10px;
+}
